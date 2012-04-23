@@ -1,0 +1,9 @@
+\#*\#
+*~
+*.d
+*.rc
+*.o
+*.so
+.nfs*
+deathstar
+a.out
