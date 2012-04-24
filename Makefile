@@ -1,8 +1,5 @@
-prefix = /usr/local
-bindir = $(prefix)/sbin
-sharedir = $(prefix)/share
-mandir = $(sharedir)/man
-man1dir = $(mandir)/man1
+prefix = /usr
+bindir = $(prefix)/bin
 
 all: deathstar
 
