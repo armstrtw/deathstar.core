@@ -1,5 +1,5 @@
 prefix = /usr
-bindir = $(prefix)/bin
+bindir = $(prefix)/sbin
 
 all: deathstar
 
