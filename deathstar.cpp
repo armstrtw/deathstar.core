@@ -114,7 +114,7 @@ void deathstar(zmq::socket_t& frontend, zmq::socket_t& backend, zmq::socket_t& w
 
 int main (int argc, char* argv[]) {
   if(argc != 5) {
-    cout << "usage: deathstar master worker worker_signal status" << endl;
+    cout << "usage: deathstar master.endpoint status.endpoint worker.endpoint worker_signal.endpoint" << endl;
     return 1;
   }
 
