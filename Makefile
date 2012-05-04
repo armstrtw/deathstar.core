@@ -7,7 +7,7 @@ clean:
 	rm -f deathstar
 
 deathstar: deathstar.cpp
-	g++ -g -Wall deathstar.cpp -lzmq -o deathstar
+	g++ -O2 -g -Wall deathstar.cpp -lzmq -o deathstar
 
 install: all
 	install deathstar $(DESTDIR)$(bindir)
